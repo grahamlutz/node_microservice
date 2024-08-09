@@ -44,5 +44,5 @@ app.post('/events', (req, res) => {
 })
 
 app.listen(4001, () => {
-  console.log('listening on 4001');
+  console.log('Comments Service listening on 4001');
 })
