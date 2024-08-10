@@ -36,7 +36,7 @@ app.post('/events', (req, res) => {
 
     const post = posts[postId];
 
-    const comment = posts.comments.find(comment => {
+    const comment = post.comments.find(comment => {
       return comment.id === id;
     })
 
